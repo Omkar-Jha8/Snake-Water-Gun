@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    width: 100%;
+    height: 60vh;
+    position: relative;
+}
+
+img {
+    width: 10vw;
+    height: 20vh;
+    position: absolute;
+
+}
+
+.computer-img {
+    left: 46%;
+    top: 10%;
+    visibility: hidden;
+
+}
+
+.img {
+    top: 60%;
+    left: 46%;
+    visibility: hidden;
+}
+
+.your-choice {
+    top: 100%;
+    left: 45.5%;
+    font-family: consolas;
+}
+
+.computer-choice {
+    left: 43%;
+    top: 45%;
+    font-family: consolas;
+
+}
+
+h1 {
+    position: absolute;
+}
+
+button {
+    width: 10vw;
+    height: 10vh;
+    background-color: antiquewhite;
+    color: black;
+    font-size: 2em;
+    float: left;
+    margin-left: 10%;
+    cursor: pointer;
+}
+
+
+
+.button {
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.point {
+    font-size: 3em;
+    width: 100%;
+    height: 8vh;
+    display: grid;
+    place-items: center;
+    font-family: consolas;
+    text-transform: uppercase;
+}
+
+.heart img {
+    width: 3vw;
+    height: 5vh;
+}
+
+.h1 {
+    left: 90%;
+    top: 5%;
+}
+
+.h2 {
+    left: 85%;
+    top: 5%;
+}
+
+.h3 {
+    left: 80%;
+    top: 5%;
+}
+
+.game-over {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    z-index: -1;
+}
+
+@media (max-width:1280px) {
+    .main {
+        width: 100vw;
+        height: 50vh;
+    }
+
+    .computer-choice {
+        font-size: 2em;
+        left: 18%;
+    }
+
+    .your-choice {
+        font-size: 2em;
+        left: 25%;
+    }
+
+    .heart img {
+        width: 8vw;
+        height: 5vh;
+    }
+
+    button {
+        width: 30vw;
+        margin-left: 0%;
+    }
+
+    .computer-img {
+        width: 20vw;
+        height: 15vh;
+        left: 40%;
+    }
+
+    .img {
+        width: 20vw;
+        height: 15vh;
+        left: 40%;
+    }
+}
